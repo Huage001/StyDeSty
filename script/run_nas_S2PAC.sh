@@ -1,0 +1,15 @@
+python main_nas.py \
+--task PACS \
+--data_root data/PACS \
+--source sketch \
+--target photo,art_painting,cartoon \
+--ckpt_dir checkpoint/S2PAC \
+--learning_rate 0.001 \
+--lr_aug 0.005 \
+--alpha_feat_idt 0.1 \
+--iters 10000 \
+--network resnet18 \
+--optimizer SGD \
+--weight_decay 0.0005 \
+--aug_weight 0.6 \
+--batch_size 64

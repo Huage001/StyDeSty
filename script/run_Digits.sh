@@ -1,0 +1,17 @@
+python main.py \
+--task Digits \
+--data_root data/Digits \
+--source MNIST \
+--target SVHN,MNIST_M,SYN,USPS \
+--ckpt_dir checkpoint/Digits_reproduce \
+--learning_rate 0.01 \
+--lr_aug 0.005 \
+--iters 30000 \
+--network lenet \
+--optimizer SGD \
+--weight_decay 0.0005 \
+--aug_weight 1 \
+--test_freq 100 \
+--inner_iter 100 \
+--batch_size 128 \
+--scheduler cos

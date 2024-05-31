@@ -1,0 +1,13 @@
+python main_nas.py \
+--task Digits \
+--data_root data/Digits \
+--source MNIST \
+--target SVHN,MNIST_M,SYN,USPS \
+--ckpt_dir checkpoint/Digits \
+--learning_rate 0.001 \
+--lr_aug 0.005 \
+--iters 30000 \
+--network lenet \
+--optimizer SGD \
+--weight_decay 0.0005 \
+--aug_weight 1. 

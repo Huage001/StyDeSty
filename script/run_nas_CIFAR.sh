@@ -1,0 +1,14 @@
+python main_nas.py \
+--task CIFAR10-C \
+--data_root data/CIFAR-10 \
+--ckpt_dir checkpoint/CIFAR10-C \
+--learning_rate 0.1 \
+--batch_size 128 \
+--lr_aug 0.001 \
+--iters 100000 \
+--alpha_likelihood 0.01 \
+--alpha_feat_idt 0.01 \
+--network wide_resnet164 \
+--optimizer SGD \
+--weight_decay 0.0005 \
+--aug_weight 0.8

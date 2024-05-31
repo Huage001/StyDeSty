@@ -1,0 +1,19 @@
+python main.py \
+--task PACS \
+--data_root data/PACS \
+--source sketch \
+--target photo,art_painting,cartoon \
+--ckpt_dir checkpoint/S2PAC \
+--learning_rate 0.001 \
+--lr_aug 0.005 \
+--iters 2000 \
+--inner_iters 50 \
+--alpha_feat_idt 0.001 \
+--alpha_likelihood 0.001 \
+--beta_feat_idt 0.001 \
+--beta_likelihood 0.001 \
+--test_freq 10 \
+--network vgg11 \
+--optimizer SGD \
+--weight_decay 0.0005 \
+--aug_weight 0.6
