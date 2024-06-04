@@ -2,7 +2,7 @@
 
 This is the pytorch implementation of the following ICML 2024 paper:
 
-**StyDeSty: Min-Max Stylization and Destylization for Single Domain Generalization**
+[**StyDeSty: Min-Max Stylization and Destylization for Single Domain Generalization**](https://arxiv.org/abs/2406.00275)
 
 *Songhua Liu, Xin Jin, Xingyi Yang, Jingwen Ye, and Xinchao Wang.*
 
